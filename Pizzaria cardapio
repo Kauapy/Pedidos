@@ -1,0 +1,45 @@
+nome=str(input("Solicite teu nome"))
+print("Pizzaria Brasileira")
+print("Escolha uma bebida :")
+print("1-Coca 1 litro ..... 8 reais")
+print("2- Fanta Lata ...... 5 reais")
+print("3- sem bebida ..... 0")
+opcao=int(input("Escolha uma opçao"))
+if (opcao==1):
+	print("Voce escolheu coca cola 1 litro")
+	v=8
+elif (opcao==2):
+	print("Voce escolheu fanta lata")
+	v=5
+elif (opcao==3):
+	print("Sem bebida")
+	v=0
+else:
+		print("Selecione o numero valido entre 1 e 3")
+print("Escolha uma pizza")
+print("1- Queijo e presunto ..... 25")
+print("2- Carne do sol ...... 30")
+print("3- Sem pizza ...... 0")
+a=int(input("Escolha uma opçao"))
+if (opcao==1):
+	print("Voce escolheu a pizza Queijo e presunto")
+	z=25
+elif (opcao==2):
+	print("Voce escolheu a pizza de Carne do Sol")
+	z=30
+elif (opcao==3):
+	print("Sem pizza no cardapio")
+	z=0
+else:
+		print("Escolha o valor incluso no cardapio entre 1 e 3")
+	
+print("Cliente:" +str(nome))
+print(" ")
+print("Pedidos:")
+print(" ")
+print("Bebida ........."+str(v))
+print(" ")
+print("Pizza ........."+str(z))
+print(" ")
+print("Total ........." +str(z+v))
+print(" ")
